@@ -1,5 +1,4 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
-  <variables>
     <variable type="" id="o!-=j_eJZCfW(+iV7;MS" deletable="false" movable="false">Tick 1</variable>
     <variable type="" id="7Q4y$nr_sr!x2NkOu%)2" deletable="false" movable="false">Stake</variable>
     <variable type="" id="b~M_gc!6d^tXHe/]?+}`" deletable="false" movable="false">Tick 2</variable>
