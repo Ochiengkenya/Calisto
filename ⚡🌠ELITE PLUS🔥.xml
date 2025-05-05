@@ -1,27 +1,27 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
   <variables>
-    <variable type="" id="o!-=j_eJZCfW(+iV7;MS" islocal="false" iscloud="false">Tick 1</variable>
-    <variable type="" id="7Q4y$nr_sr!x2NkOu%)2" islocal="false" iscloud="false">Stake</variable>
-    <variable type="" id="b~M_gc!6d^tXHe/]?+}`" islocal="false" iscloud="false">Tick 2</variable>
-    <variable type="" id=":Z8WvPXWG?qCe|8=iii1" islocal="false" iscloud="false">Target Profit</variable>
-    <variable type="" id="S10~wx4EJ/w3gZZ;v77Y" islocal="false" iscloud="false">Total Lost</variable>
-    <variable type="" id="!}o95im:dfosc$6[v%LW" islocal="false" iscloud="false">Tick 3</variable>
-    <variable type="" id="~ZEk9Zr7t[g;-`afIGOO" islocal="false" iscloud="false">Initial Stake</variable>
-    <variable type="" id="L.cN$B-UUzkS|eDQm2xZ" islocal="false" iscloud="false">Stop Loss</variable>
-    <variable type="" id="Op-Cim@t?DJN?i;G)w)C" islocal="false" iscloud="false">Count Loss</variable>
-    <variable type="" id="S|AWDr;xbKU_pbl(^]^B" islocal="false" iscloud="false">Tick 4</variable>
-    <variable type="" id="!mQjsA[]viO$7Gu~UzUn" islocal="false" iscloud="false">Martingale Split</variable>
-    <variable type="" id="VK7:nSRSXJ=|#p(oAU9v" islocal="false" iscloud="false">Payout %</variable>
-    <variable type="" id="icmJXVK=|*WSXkYEU*E;" islocal="false" iscloud="false">text</variable>
-    <variable type="" id="Y$cG[}L|(_T-=;0ZyXI." islocal="false" iscloud="false">text1</variable>
-    <variable type="" id="$+Q3~hzlFiI[$SMrBNB?" islocal="false" iscloud="false">Prediction</variable>
-    <variable type="" id="+L:nET.PS2OXV5VNGInM" islocal="false" iscloud="false">Analysis</variable>
-    <variable type="" id="2/ozQp|pSBT9oqJ(u7uu" islocal="false" iscloud="false">Entrypoint</variable>
-    <variable type="" id="sF6($OTq!BVWswgj}4|S" islocal="false" iscloud="false">Prediction-One</variable>
-    <variable type="" id="OPb$Wwph1|)^r0#|^^y}" islocal="false" iscloud="false">Prediction-Two</variable>
-    <variable type="" id="x`Ia+qCu@StiaJI^X([4" islocal="false" iscloud="false">Entrypoint-Digit</variable>
-    <variable type="" id="NkU}?ljlTD|eXE4JAwdJ" islocal="false" iscloud="false">Numberofticks</variable>
-    <variable type="" id="%U`KWGsoL9`{n6cCu8Fr" islocal="false" iscloud="false">Martingale</variable>
+    <variable type="" id="o!-=j_eJZCfW(+iV7;MS" deletable="false" movable="false">Tick 1</variable>
+    <variable type="" id="7Q4y$nr_sr!x2NkOu%)2" deletable="false" movable="false">Stake</variable>
+    <variable type="" id="b~M_gc!6d^tXHe/]?+}`" deletable="false" movable="false">Tick 2</variable>
+    <variable type="" id=":Z8WvPXWG?qCe|8=iii1" deletable="false" movable="false">Target Profit</variable>
+    <variable type="" id="S10~wx4EJ/w3gZZ;v77Y" deletable="false" movable="false">Total Lost</variable>
+    <variable type="" id="!}o95im:dfosc$6[v%LW" deletable="false" movable="false">Tick 3</variable>
+    <variable type="" id="~ZEk9Zr7t[g;-`afIGOO" deletable="false" movable="false">Initial Stake</variable>
+    <variable type="" id="L.cN$B-UUzkS|eDQm2xZ" deletable="false" movable="false">Stop Loss</variable>
+    <variable type="" id="Op-Cim@t?DJN?i;G)w)C" deletable="false" movable="false">Count Loss</variable>
+    <variable type="" id="S|AWDr;xbKU_pbl(^]^B" deletable="false" movable="false">Tick 4</variable>
+    <variable type="" id="!mQjsA[]viO$7Gu~UzUn" deletable="false" movable="false">Martingale Split</variable>
+    <variable type="" id="VK7:nSRSXJ=|#p(oAU9v" deletable="false" movable="false">Payout %</variable>
+    <variable type="" id="icmJXVK=|*WSXkYEU*E;" deletable="false" movable="false">text</variable>
+    <variable type="" id="Y$cG[}L|(_T-=;0ZyXI." deletable="false" movable="false">text1</variable>
+    <variable type="" id="$+Q3~hzlFiI[$SMrBNB?" deletable="false" movable="false">Prediction</variable>
+    <variable type="" id="+L:nET.PS2OXV5VNGInM" deletable="false" movable="false">Analysis</variable>
+    <variable type="" id="2/ozQp|pSBT9oqJ(u7uu" deletable="false" movable="false">Entrypoint</variable>
+    <variable type="" id="sF6($OTq!BVWswgj}4|S" deletable="false" movable="false">Prediction-One</variable>
+    <variable type="" id="OPb$Wwph1|)^r0#|^^y}" deletable="false" movable="false">Prediction-Two</variable>
+    <variable type="" id="x`Ia+qCu@StiaJI^X([4" deletable="false" movable="false">Entrypoint-Digit</variable>
+    <variable type="" id="NkU}?ljlTD|eXE4JAwdJ" deletable="false" movable="false">Numberofticks</variable>
+    <variable type="" id="%U`KWGsoL9`{n6cCu8Fr" deletable="false" movable="false">Martingale</variable>
   </variables>
   <block type="trade_definition" id="deUzn(1}F)X6;d+O#$A8" deletable="false" x="0" y="60">
     <statement name="TRADE_OPTIONS">
