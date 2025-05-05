@@ -1,4 +1,4 @@
-<xml xmlns="http://www.w3.org/1999/xhtml" is_dbot="true" collection="false">
+<xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
   <variables>
     <variable type="" id="o!-=j_eJZCfW(+iV7;MS" islocal="false" iscloud="false">Tick 1</variable>
     <variable type="" id="7Q4y$nr_sr!x2NkOu%)2" islocal="false" iscloud="false">Stake</variable>
