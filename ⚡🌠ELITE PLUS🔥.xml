@@ -22,14 +22,14 @@
     <variable type="" id="NkU}?ljlTD|eXE4JAwdJ" deletable="false" movable="false">Numberofticks</variable>
     <variable type="" id="%U`KWGsoL9`{n6cCu8Fr" deletable="false" movable="false">Martingale</variable>
   </variables>
-  <block type="trade_definition" id="deUzn(1}F)X6;d+O#$A8" deletable="false" x="0" y="60">
+  <block type="trade_definition" id="deUzn(2}F)X9;d+O#$A6" deletable="false" x="0" y="30">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="*ZjSt,1/{;THl;IV%*sy" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
         <field name="SUBMARKET_LIST">random_index</field>
         <field name="SYMBOL_LIST">1HZ100V</field>
         <next>
-          <block type="trade_definition_tradetype" id="xzc0Sl`,#G4h{;usN50T" deletable="false" movable="false">
+          <block type="trade_definition_tradetype" id="xzc0S3`,#G4h{;usN50T" deletable="false" movable="false">
             <field name="TRADETYPECAT_LIST">digits</field>
             <field name="TRADETYPE_LIST">overunder</field>
             <next>
@@ -37,7 +37,7 @@
                 <field name="TYPE_LIST">both</field>
                 <next>
                   <block type="trade_definition_candleinterval" id=";)B,zZH~+e,96QvZt*7;" deletable="false" movable="false">
-                    <field name="CANDLEINTERVAL_LIST">120</field>
+                    <field name="CANDLEINTERVAL_LIST">45</field>
                     <next>
                       <block type="trade_definition_restartbuysell" id="5E?,-;gq5Qu_eyIs.)m!" deletable="false" movable="false">
                         <field name="TIME_MACHINE_ENABLED">FALSE</field>
@@ -57,7 +57,7 @@
       </block>
     </statement>
     <statement name="INITIALIZATION">
-      <block type="variables_set" id="4$5m(H*{`c4#S-)o=;aV">
+      <block type="variables_set" id="6$7m(H*{`c4#S-)o=;aV">
         <field name="VAR" id="sF6($OTq!BVWswgj}4|S" variabletype="">Prediction-One</field>
         <value name="VALUE">
           <block type="math_number" id="Ai5]{:#d~w;]%q`:p[h,">
@@ -90,7 +90,7 @@
                     </value>
                     <next>
                       <block type="variables_set" id="9.jN~btog59cUwf8:lPl">
-                        <field name="VAR" id=":Z8WvPXWG?qCe|8=iii1" variabletype="">Target Profit</field>
+                        <field name="VAR" id=":Z8WvPXWG?qCe|4=iii1" variabletype="">Target Profit</field>
                         <value name="VALUE">
                           <block type="math_number" id=".`(0weVv%;N,|MA`*;Ll" collapsed="true">
                             <field name="NUM">400</field>
